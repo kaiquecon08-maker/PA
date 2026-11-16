@@ -1,0 +1,102 @@
+
+/* FUNDO DA PÁGINA */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #d9dce2 0%,
+        #d8c9bc 35%,
+        #e9a879 70%,
+        #f2c19d 100%
+    );
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* CARTÃO PRINCIPAL */
+.container {
+    background: linear-gradient(
+        145deg,
+        #454b55,
+        #292d35
+    );
+
+    width: 100%;
+    max-width: 365px;
+    padding: 30px 27px 26px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #00000030;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* TÍTULO */
+h1 {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+
+header p {
+    color: #eeeeee;
+}
+
+/* ORGANIZAÇÃO DOS BOTÕES */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+/* BOTÕES */
+.jogada {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #e28b42;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.jogada:hover {
+    background-color: #c66c27;
+    transform: scale(1.04);
+}
+
+/* ÁREA DO RESULTADO */
+#resultado {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#resultado h2 {
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+#resultado p {
+    font-size: 17px;
+    margin: 8px 0 15px;
+}
+
+/* CARTÃO DO RESULTADO */
+.card {
+    background-color: #ffffff20;
+    padding: 15px;
+    border-radius: 10px;
+}
